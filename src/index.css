@@ -1,0 +1,73 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #FFF;
+  padding: 5px 8px;
+  color: #088F8F;
+  border-radius: 4px;
+}
+
+button:hover{
+  background-color: grey;
+  color: #fff;
+  transition: 1s
+}
+
+.nav {
+  @apply sm:py-3 py-5 sm:px-10 px-5 flex justify-between;
+}
+
+.hero{
+ background: black;
+ opacity: 0.85;
+ height: 90vh
+}
+
+.hero .image-slides{
+  height: 100%
+}
+
+.hero .image-slides img{
+  height: 100%;
+  width: 100%;
+}
+
+.headerText{
+  font-size: 3.5rem;
+}
+
+.flexImage{
+  height: 60vh;
+  width: 100%
+}
+
+.flexImage img{
+  height: 100%;
+  width: 100%
+}
+
+.section-prop{
+  padding: 4rem;
+}
+
+.span-text{
+  color: teal;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.p-text{
+  font-size: 1rem
+}
+
+.stats {
+  background: linear-gradient(to right, rgb(4, 194, 219), rgb(5, 156, 206), royalblue, navy);
+}
