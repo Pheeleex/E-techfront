@@ -42,6 +42,7 @@ button:hover{
 
 .headerText{
   font-size: 3.5rem;
+  font-weight: 700;
 }
 
 .flexImage{
@@ -58,6 +59,12 @@ button:hover{
   padding: 4rem;
 }
 
+@media (max-width:799px) {
+  .section-prop{
+    padding: 2rem;
+  }
+}
+
 .span-text{
   color: teal;
   font-weight: 800;
@@ -68,6 +75,22 @@ button:hover{
   font-size: 1rem
 }
 
+@media (max-width:799px) {
+  .p-text{
+    font-size: 113px;
+  }
+}
+
 .stats {
   background: linear-gradient(to right, rgb(4, 194, 219), rgb(5, 156, 206), royalblue, navy);
+}
+
+@media (max-width: 799px) {
+  .headerText{
+    font-size: 1.5rem;
+  }
+
+  .p-text{
+    font-size: 0.61rem
+  }
 }
