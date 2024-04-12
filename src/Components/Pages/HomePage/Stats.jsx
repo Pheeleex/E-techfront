@@ -21,7 +21,7 @@ const Stats = () => {
     ]
   return (
     <div className='stats p-8'>
-        <div className='flex justify-between'>              
+        <div className='flex flex-col lg:flex-row justify-between'>              
                     {
                         bigStats.map((stat, index) => (
                             <div  key={index}

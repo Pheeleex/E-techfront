@@ -1,13 +1,15 @@
 import React from 'react'
-import accra from '../../../assets/Images/techhub.jpg'
-import accra2 from '../../../assets/Images/alt2.jpg'
-import accra3 from '../../../assets/Images/alt.jpg'
+import robots from '../../../assets/Images/robots.jpg'
+import girls from '../../../assets/Images/gitls.jpg'
+import bous from '../../../assets/Images/Bous.jpg'
+import cyber from '../../../assets/Images/cybersecurity.jpg'
+import asa from '../../../assets/Images/asa.jpg'
 import PageSlider from './PageSlider'
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const HomePage = () => {
-  const images = [accra, accra2, accra3]
+  const images = [girls, bous, cyber, robots, asa]
 
   useGSAP(() => {
     gsap.to('.theText', { opacity: 1, delay: 2 })

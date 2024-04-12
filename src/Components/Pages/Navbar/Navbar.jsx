@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const handleToggleMenu = () => {
     setToggleMenu(prev => !prev)
+    console.log(toggleMenu)
   }
   return (
     <div className='nav bg-otherblue fixed  sticky z-50 left-0 top-0'>
@@ -16,8 +17,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faSchool} />
             <h1 className='text-lg font-extrabold'>EduTech</h1>
         </div>
-        <div className={`links ${toggleMenu ? 'md:flex lg:flex-row' : 'hidden'} flex-col gap-6 bg-white text-teal w-full p-8
-        text-white font-bold py-2 absolute top-16 right-0 justify-center items-center`}>
+        <div className={`links ${toggleMenu ? '' : 'active'}`}>
             {
               navList.map((nav) => (
                 <div>

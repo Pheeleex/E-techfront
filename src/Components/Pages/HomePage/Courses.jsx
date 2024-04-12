@@ -54,9 +54,9 @@ const Courses = () => {
     ]
   return (
     <section className='section-prop course-section flex flex-col items-center bg-aliceblue'>
-        <h1>Secure your future, begin your career in tech today</h1>
-        <p>Begin your tech career and professional journey, with our world class competitive courses</p>
-        <div className='flex-col lg:flex flex justify-between items-center py-10 gap-8'>
+        <h1 className='text-4xl text-matteblack font-bold'>Secure your future, begin your career in tech today</h1>
+        <p className='text-xl text-notsoblack'>Begin your tech career and professional journey, with our world class competitive courses</p>
+        <div className='flex flex-col lg:flex-row justify-between items-center py-10 gap-8'>
         <div className='flexText flex flex-col flex-1 items-start justify-center'>
             <span className='span-text text-lg font-extrabold)'>6weeks 20hours per week</span>
             <h1 className='headerText text-matteblack'>AI Career Essentials</h1>
@@ -71,7 +71,7 @@ const Courses = () => {
                 <img src={couseImg} />
             </div>
     </div>
-    <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+    <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-20'>
   {courseList.map((course, index) => (
     <div key={index} className='flex flex-col bg-white p-4 lg:p-8 border rounded-lg gap-4 border-1 border-notsowhite'>
       <div className="image">
