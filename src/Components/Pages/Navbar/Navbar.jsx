@@ -17,7 +17,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faSchool} />
             <h1 className='text-lg font-extrabold'>EduTech</h1>
         </div>
-        <div className={`links ${toggleMenu ? '' : 'active'}`}>
+        <div className={`links ${toggleMenu ? 'active' : ''}`}>
             {
               navList.map((nav) => (
                 <div>

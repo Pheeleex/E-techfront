@@ -73,7 +73,7 @@ const Courses = () => {
     </div>
     <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-20'>
   {courseList.map((course, index) => (
-    <div key={index} className='flex flex-col bg-white p-4 lg:p-8 border rounded-lg gap-4 border-1 border-notsowhite'>
+    <div key={index} className='flex flex-col bg-white p-4 lg:p-8 border rounded-lg gap-8 lg:gap-4 border-1 border-notsowhite'>
       <div className="image">
         <img src={course.ImgSrc} alt={course.courseName} className='border rounded-lg' />
       </div>
