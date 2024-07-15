@@ -55,7 +55,8 @@ const Courses = () => {
   return (
     <section className='section-prop course-section flex flex-col items-center bg-aliceblue'>
         <h1 className='text-4xl text-matteblack font-bold'>Secure your future, begin your career in tech today</h1>
-        <p className='text-xl text-notsoblack'>Begin your tech career and professional journey, with our world class competitive courses</p>
+        <p className='text-xl text-otherblue'>Begin your tech career and 
+        professional journey, with our world class competitive courses</p>
         <div className='flex flex-col lg:flex-row justify-between items-center py-10 gap-8'>
         <div className='flexText flex flex-col flex-1 items-start justify-center'>
             <span className='span-text text-lg font-extrabold)'>6weeks 20hours per week</span>
@@ -79,8 +80,9 @@ const Courses = () => {
       </div>
       <div className='desc'>
         <h1 className='font-bold text-matteblack text-lg'>{course.courseName}</h1>
-        <p className='text-matteblack mt-3 text-matteblack'>{course.Description}</p>
+        <p className='text-matteblack mt-3'>{course.Description}</p>
       </div>
+      <button className='p-2 bg-transparent text-otherblue w-40 hover:bg-otherblue'>See more</button>
     </div>
   ))}
 </div>

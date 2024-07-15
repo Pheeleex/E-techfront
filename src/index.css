@@ -9,7 +9,7 @@
 }
 
 button{
-  background-color: #FFF;
+  border: 2px solid#088F8F;
   padding: 5px 8px;
   color: #088F8F;
   border-radius: 4px;
@@ -22,15 +22,20 @@ button:hover{
 }
 
 .nav {
-  @apply sm:py-3 py-5 sm:px-10 px-5 flex justify-between;
+  @apply sm:py-3 lg:py-5 sm:px-10 px-5 flex justify-between;
 }
 
 .links{
   display: flex;
   justify-content: center;
-  gap: 24px;
-  color: #FFF;
+  gap: 30px;
+  color: #1996a7;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.link:hover{
+  color: #969797;
 }
 
 .bars{
@@ -60,9 +65,8 @@ button:hover{
 }
 
 .hero{
- background: black;
- opacity: 0.85;
- height: 90vh
+ background: rgba(1, 39, 46, 0.9);
+ height: 90vh;
 }
 
 .hero .image-slides{
@@ -91,6 +95,7 @@ button:hover{
 
 .section-prop{
   padding: 4rem;
+  padding-top: 8rem ;
 }
 
 .course-section{
