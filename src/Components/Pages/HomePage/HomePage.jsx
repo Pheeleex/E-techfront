@@ -16,7 +16,7 @@ const HomePage = () => {
 
   useGSAP(() => {
     gsap.to('.theText', { opacity: 1, delay: 0.5 })
-    gsap.from('.text', {x: '100%', delay: 2})
+    gsap.from('.text', {x: '200%', delay: 2})
     gsap.from('.hero-buttons', {y: '400%', delay: 2.5})
   }, [])
   
@@ -34,7 +34,7 @@ const HomePage = () => {
                 </p>
             </div>
             <div className='hero-buttons mt-5 flex gap-2 justify-center'>
-            <button className='px-8 py-2 bg-otherblue text-white rounded border border-0 cursor-pointer'>
+            <button className='px-8 py-2 bg-otherblue text-white rounded border cursor-pointer'>
               Apply
             </button>
             <button className=' px-8 py-2 bg-transparent text-white rounded border-white border-2 cursor-pointer'>
